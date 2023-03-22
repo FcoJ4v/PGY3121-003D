@@ -1,0 +1,11 @@
+#columna{
+    border:solid red;
+}
+
+.carousel-item img{
+    height: 400px   ;
+}
+
+.mt-5{
+    margin-top: 150px !important;
+}

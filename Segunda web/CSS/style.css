@@ -1,0 +1,92 @@
+
+.contenedorHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color:hwb(48 53% 0%);
+}
+
+.contenedorHeader h3{
+    padding-left: 16px;
+    color: blue;
+}
+
+a{
+    text-decoration: none; /* quitar la linea de enlace a los link */
+}
+
+.contenedorHeader h3:hover{
+    color:blueviolet;
+}
+
+body{
+    margin: 0;
+    background-color: rgb(173, 239, 239);
+}
+.contenedorFooter{
+    width: 100%;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: row;
+}
+
+.boxFooter{
+    width: 33.3%;
+    
+    padding:10px;
+}
+ 
+
+.boxFooter img{
+    width: 30px;
+    height: 30px;
+    padding-right: 10px;
+    margin-left: 5px;
+}
+
+.miniBox{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.boxFooter p{
+    text-align: justify;
+}
+
+.miniBox h3:hover{
+    color:red;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+
+}
+
+.box i{
+    padding-right: 10px;
+}
+
+.contenedor{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.table{
+    width: 100%;
+
+}
+
+.table tr{
+    text-align: center;
+}
+.table th{
+    text-align: center;
+}
+
+.data1{
+    height: 50px;
+    background-color: rgb(83, 196, 145);
+}

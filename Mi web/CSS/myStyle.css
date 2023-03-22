@@ -1,0 +1,65 @@
+h3{
+    color: blue;
+}
+
+/* el # es para llamar al id del h5 */
+#encabezadoCinco{
+    color: aqua;
+}
+
+/* el # es para llamar a las clases h6 */
+.encabezadoSeis{
+    color: blueviolet;
+}
+
+img{
+
+    height: 100px;
+    width: 100px;
+}
+
+.contenedor{
+    height: 500px;
+    border: solid blue;
+    padding: 5px;
+    margin: 20px;
+    display: flex;
+    justify-content: center ;
+    /* shift alt a para comentar */
+    align-items: center; /* para centrar  */
+    flex-direction: column; /* para orientar la imgagen en vertical */
+    /*flex-direction: row;  para orientar la imgagen en horizontal */
+
+}
+
+header{
+    border:color orange;
+}
+
+footer{
+    border: color orange;
+}
+
+.contHeader{
+display: flex;
+flex-direction: row;
+justify-content: end;
+}
+
+.contHeader h3{
+    margin-left: 10px;
+}
+
+.contFooter{
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    display: flex;
+    border:solid red;
+
+}
+
+.cont1,.cont2,.cont3{
+    width: 33.3%;
+    border:solid green;
+}
