@@ -1,11 +1,47 @@
-#columna{
-    border:solid red;
+@font-face{
+    font-family: miFuente;
+    src: url("fonts/RoughAnthem.ttf");
 }
 
+
+h1{
+    font-family: miFuente;
+}
 .carousel-item img{
-    height: 400px   ;
+    height: 400px;
+    width: 500px;
+    
+}
+.carousel-inner{
+
+    
 }
 
 .mt-5{
     margin-top: 150px !important;
+}
+
+
+
+.bg-miColor{
+    background-color: aqua;
+}
+
+
+.btn-color{
+    background-color: blue;
+    border-color: brown;
+}
+
+.btn-color:hover{
+    background-color: rgb(11, 255, 129);
+    border-color: rgb(189, 5, 183);
+}
+
+.material-icons{
+    font-size: 100px;
+    color: blue;
+}
+.material-icons:hover{
+    color: red;
 }

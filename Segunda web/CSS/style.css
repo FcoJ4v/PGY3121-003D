@@ -1,31 +1,31 @@
-
 .contenedorHeader{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    background-color:hwb(48 53% 0%);
+    background-color: rgb(233, 227, 227);
 }
 
 .contenedorHeader h3{
-    padding-left: 16px;
+    padding-left: 20px;
     color: blue;
 }
 
 a{
-    text-decoration: none; /* quitar la linea de enlace a los link */
+    text-decoration: none;
 }
 
 .contenedorHeader h3:hover{
-    color:blueviolet;
+    color: blueviolet;
 }
 
 body{
     margin: 0;
-    background-color: rgb(173, 239, 239);
 }
+
+
 .contenedorFooter{
     width: 100%;
-    background-color: burlywood;
+    
     display: flex;
     flex-direction: row;
 }
@@ -33,21 +33,20 @@ body{
 .boxFooter{
     width: 33.3%;
     
-    padding:10px;
+    padding: 20px;
+    background-color: blanchedalmond;
 }
- 
 
 .boxFooter img{
-    width: 30px;
     height: 30px;
+    width: 30px;
     padding-right: 10px;
-    margin-left: 5px;
 }
 
 .miniBox{
     display: flex;
     align-items: center;
-    padding-top: 10px;
+    margin-top: 15px;
 }
 
 .boxFooter p{
@@ -55,38 +54,34 @@ body{
 }
 
 .miniBox h3:hover{
-    color:red;
+    color:red; 
 }
 
 .box{
     display: flex;
     flex-direction: row;
-    align-items:center;
-
+    align-items: center;
 }
 
-.box i{
+.box i {
     padding-right: 10px;
 }
+
 
 .contenedor{
     padding-left: 200px;
     padding-right: 200px;
 }
 
-.table{
+table{
     width: 100%;
-
 }
 
-.table tr{
-    text-align: center;
-}
-.table th{
+table tr{
     text-align: center;
 }
 
 .data1{
     height: 50px;
-    background-color: rgb(83, 196, 145);
+    background-color: cadetblue;
 }

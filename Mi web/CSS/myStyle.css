@@ -2,62 +2,60 @@ h3{
     color: blue;
 }
 
-/* el # es para llamar al id del h5 */
+
 #encabezadoCinco{
-    color: aqua;
+    color:aqua;
 }
 
-/* el # es para llamar a las clases h6 */
 .encabezadoSeis{
     color: blueviolet;
 }
 
 img{
-
     height: 100px;
     width: 100px;
 }
 
+
 .contenedor{
     height: 500px;
-    border: solid blue;
-    padding: 5px;
+    border:solid blue;
+    padding: 20px;
     margin: 20px;
     display: flex;
-    justify-content: center ;
-    /* shift alt a para comentar */
-    align-items: center; /* para centrar  */
-    flex-direction: column; /* para orientar la imgagen en vertical */
-    /*flex-direction: row;  para orientar la imgagen en horizontal */
-
+    /* justify-content: center;
+    align-items: center; */
+    flex-direction:column ;
 }
 
-header{
+
+header
+{
+    border:color orange;
+}
+footer{
     border:color orange;
 }
 
-footer{
-    border: color orange;
-}
-
 .contHeader{
-display: flex;
-flex-direction: row;
-justify-content: end;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
 .contHeader h3{
     margin-left: 10px;
 }
 
+
 .contFooter{
     width: 100%;
-    height: 100%;
-    flex-direction: row;
-    display: flex;
     border:solid red;
-
+    height: 100px;
+    display: flex;
+    flex-direction: row;
 }
+
 
 .cont1,.cont2,.cont3{
     width: 33.3%;
