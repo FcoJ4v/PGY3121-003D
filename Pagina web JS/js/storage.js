@@ -11,6 +11,11 @@ function    crear(){
             nombre:"Pedro",
             edad: 30,
             rut:"18.123.123-4"
+        },
+        {
+            nombre:"Luis",
+            edad:50,
+            rut:"12.312.231-3"
         }
     ];
 
@@ -42,3 +47,30 @@ function obtener(){
    
     
 }
+function eliminarUnoStorage(){
+    let valorRut = document.getElementById("txtRut").value;
+    const storage = JSON.parse(localStorage.getItem("storage003d"));/* convierte el string en formato array PARSE */
+    let arrayTemporal = [];
+    console.log("Valor input", valorRut , "---   Valor Storage", storage);
+    /* meetodo para filtrar dentro de un array */
+    let filtro = storage.filter(e => e.rut == valorRut);
+    console.log("Filtro", filtro);
+
+    if (filtro.length == 0) {
+        alert("Rut no encontrado!!");
+    }else{
+        /* for para recorrer el storage */
+        for (const i of storage) {
+            if (i.rut != valorRut) {
+                arrayTemporal.push(i); /* se agrega el iterador */
+            }
+        }
+        localStorage.setItem("storage003d",JSON.stringify(arrayTemporal));
+        alert("Eliminado!!!");
+    }
+
+    console.log(arrayTemporal);
+
+}
+
+
